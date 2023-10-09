@@ -9,6 +9,7 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { CardLabelComponent } from './components/card/card-label/card-label.component';
 import { CardPriceComponent } from './components/card/card-price/card-price.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +17,8 @@ import { CardPriceComponent } from './components/card/card-price/card-price.comp
     CardComponent,
     NavBarComponent,
     CardLabelComponent,
-    CardPriceComponent
+    CardPriceComponent,
+
   ],
   imports: [
     BrowserModule,
