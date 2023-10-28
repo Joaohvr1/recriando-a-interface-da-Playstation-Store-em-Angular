@@ -8,6 +8,8 @@ import { CardComponent } from './components/card/card.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { CardLabelComponent } from './components/card/card-label/card-label.component';
 import { CardPriceComponent } from './components/card/card-price/card-price.component';
+import { CardAdComponent } from './components/card/card-ad/card-ad.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -18,11 +20,13 @@ import { CardPriceComponent } from './components/card/card-price/card-price.comp
     NavBarComponent,
     CardLabelComponent,
     CardPriceComponent,
+    CardAdComponent,
 
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

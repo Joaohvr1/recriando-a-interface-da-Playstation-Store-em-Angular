@@ -1,3 +1,4 @@
+
 .card-price__container{
   position: absolute;
   bottom: 0;
@@ -16,7 +17,7 @@
 }
 
 .card-price__title{
-  margin-bottom: 3px;
+  margin-bottom: -8px;
 }
 
 .card-price__value{

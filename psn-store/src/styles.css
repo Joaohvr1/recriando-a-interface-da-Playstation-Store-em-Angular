@@ -3,8 +3,11 @@
   padding: 0;
   border: 0;
   box-sizing: border-box;
+
 }
 
 body{
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,221,1) 35%, rgba(9,9,221,1) 100%);
+  background: rgb(255,255,255);
+
 }
+

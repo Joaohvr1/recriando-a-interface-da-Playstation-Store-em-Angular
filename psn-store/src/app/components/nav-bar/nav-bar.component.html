@@ -1,11 +1,17 @@
-<div class="menu-bar__content">
+<div class="sony-bar">
+  <div class="sony-bar-logo">
+    <img src="https://www.playstation.com/etc.clientlibs/global_pdc/clientlibs/clientlibs-jetstream/resources/assets/fonts/sony_logo.svg" alt="" height="36px">
+  </div>
+</div>
+
+<div class="menu-bar__content" (scroll) ="onscroll()" [ngClass]="navbarfixed?'fixed':'nofixed'" >
   <div class="menu-bar__logo">
     <img
-      src="assets/ps-logo.png"
+      src="https://static-00.iconduck.com/assets.00/playstation-icon-2048x1665-icu9gzjj.png"
       alt="logo playstation"
       srcset=""
-      width="140px"
-      height="32px"
+      width="30px"
+      height="20px"
     >
   </div>
   <div class="menu-bar__item">

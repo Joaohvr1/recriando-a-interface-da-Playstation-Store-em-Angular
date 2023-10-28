@@ -1,0 +1,59 @@
+.card-ad__container{
+  overflow: hidden;
+  width: 100%;
+  height: 450px;
+}
+
+.card-ad__image{
+  width: 100%;
+  height: 100%;
+}
+
+.card-ad__title{
+  background-color: white;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 26px 19px 0px rgba(0,0,0,0.1);
+
+}
+
+.card-ad__name{
+  padding-left: 2rem;
+}
+.card-ad__name > h3{
+  color: rgba(0, 0, 0, 0.672);
+  font-weight: 100;
+  font-size: 2rem;
+}
+.card-ad__name > p{
+  margin-top: 2rem;
+  color: gray;
+}
+.card-ad__span{
+  display: block;
+
+}
+.card-ad__button, button{
+  background-color: #0070cc;
+  padding: 0 10px 0 10px;
+  border-radius: 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: white;
+  height: calc(20px + 1rem)
+}
+
+.card-ad__button, button:hover {
+  cursor: pointer;
+}
+
+
+@media screen and (min-width: 720){
+  .card-ad__container{
+    width: 100%;
+    height: 80px;
+  }
+
+}
