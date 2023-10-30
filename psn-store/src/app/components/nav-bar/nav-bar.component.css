@@ -1,6 +1,4 @@
-*{
-  overflow: hidden;
-}
+
 .fixed {
   position: fixed;
   width: 100%;
@@ -52,7 +50,6 @@
 .menu-bar__item > ul {
   display: flex;
   flex-direction: row;
-
   list-style: none;
 }
 
