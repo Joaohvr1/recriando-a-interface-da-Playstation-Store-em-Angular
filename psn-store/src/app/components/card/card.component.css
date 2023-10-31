@@ -8,7 +8,7 @@
   display: flex;
   overflow: hidden;
   margin-top: 15px;
-  margin-left: 1rem;
+
 }
 
 .card__img{
@@ -25,7 +25,7 @@
 }
 
 .card__img:active{
-  padding: 1rem;
+  padding: 8px;
   border-radius: 1rem;
 }
 
@@ -33,10 +33,15 @@
   border-radius: .8rem;
 }
 
+
+.card__container:hover{
+  cursor: pointer;
+}
+
 @media screen and (max-width: 720px) {
   .card__container{
-    margin-top: 10px;
-    width: 150px;
+
+    width: 175px;
     height: 300px;
   }
 }
